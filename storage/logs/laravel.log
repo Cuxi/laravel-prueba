@@ -1,0 +1,24 @@
+[2017-09-27 00:50:35] local.ERROR: Call to undefined method Illuminate\Foundation\Application::bindShared() {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): Call to undefined method Illuminate\\Foundation\\Application::bindShared() at /home/alumnado/projectPrueba/vendor/illuminate/html/HtmlServiceProvider.php:36)
+[stacktrace]
+#0 /home/alumnado/projectPrueba/vendor/illuminate/html/HtmlServiceProvider.php(21): Illuminate\\Html\\HtmlServiceProvider->registerHtmlBuilder()
+#1 /home/alumnado/projectPrueba/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(586): Illuminate\\Html\\HtmlServiceProvider->register()
+#2 /home/alumnado/projectPrueba/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(695): Illuminate\\Foundation\\Application->register(Object(Illuminate\\Html\\HtmlServiceProvider))
+#3 /home/alumnado/projectPrueba/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(675): Illuminate\\Foundation\\Application->registerDeferredProvider('Illuminate\\\\Html...', 'html')
+#4 /home/alumnado/projectPrueba/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(651): Illuminate\\Foundation\\Application->loadDeferredProvider('html')
+#5 /home/alumnado/projectPrueba/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(299): Illuminate\\Foundation\\Application->loadDeferredProviders()
+#6 /home/alumnado/projectPrueba/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(119): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#7 /home/alumnado/projectPrueba/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 {main}
+"} 
+[2017-09-27 00:55:07] local.ERROR: Call to undefined method Illuminate\Foundation\Application::bindShared() {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): Call to undefined method Illuminate\\Foundation\\Application::bindShared() at /home/alumnado/projectPrueba/vendor/illuminate/html/HtmlServiceProvider.php:36)
+[stacktrace]
+#0 /home/alumnado/projectPrueba/vendor/illuminate/html/HtmlServiceProvider.php(21): Illuminate\\Html\\HtmlServiceProvider->registerHtmlBuilder()
+#1 /home/alumnado/projectPrueba/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(586): Illuminate\\Html\\HtmlServiceProvider->register()
+#2 /home/alumnado/projectPrueba/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(695): Illuminate\\Foundation\\Application->register(Object(Illuminate\\Html\\HtmlServiceProvider))
+#3 /home/alumnado/projectPrueba/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(675): Illuminate\\Foundation\\Application->registerDeferredProvider('Illuminate\\\\Html...', 'html')
+#4 /home/alumnado/projectPrueba/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(651): Illuminate\\Foundation\\Application->loadDeferredProvider('html')
+#5 /home/alumnado/projectPrueba/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(299): Illuminate\\Foundation\\Application->loadDeferredProviders()
+#6 /home/alumnado/projectPrueba/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(119): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#7 /home/alumnado/projectPrueba/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 {main}
+"} 
